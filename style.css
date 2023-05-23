@@ -1,0 +1,313 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    /* background-color: aquamarine; */
+    padding: 2rem;
+    display: flex;
+    justify-content:space-between;
+    color: grey;
+
+}
+
+header div {
+
+    /* background-color: blue; */
+    width: 40vw;
+    height: 6rem;
+
+}
+.content_bar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+nav:hover {
+    color: rgb(245, 17, 17);
+}
+
+.image_bar {
+
+    width: 9rem;
+    height: 10vh;
+    font-size: 5rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-left: 105px;
+
+}
+
+.container {
+
+    /* background-color: bisque; */
+    margin-left: 160px;
+    display: flex;
+}
+
+.info_bar {
+
+    /* background-color: aqua; */
+    margin: 25px;
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#future {
+
+    width: 95vw;
+    
+}    margin-left: 20px;
+
+
+.box {
+
+    /* background-color: chartreuse; */
+    width: 96%;
+    display: flex;
+    margin-left: 1.5rem;
+
+}
+
+.box img {
+
+    width: 100%;
+}
+
+#boxes {
+
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#boxes div {
+
+    background-color:white;
+    width: 45%;
+    height: 28vh;
+}
+
+.paragraph {
+
+    font-size: 70px;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 800;
+}
+
+.statement {
+
+    font-size: 25px;
+    font-family: 'Inter Tight', sans-serif;
+    color: grey;
+    font-weight: 200;
+    padding: 20px;
+
+
+}
+
+button {
+
+    background-color: rgb(245, 79, 79);
+    color: wheat;
+    width: 10vw;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+    
+}
+
+#New_bar {
+
+    /* background-color: rgb(138, 74, 74); */
+    width: 50vw;
+
+
+}
+
+.children_bar {
+    background-color: black;
+    width: 25vw;
+    height: 80vh;
+    color: aliceblue;
+    
+
+}
+
+.children_bar div {
+
+    /* background-color: aqua; */
+    width: 22vw;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.children_bar div .bar1{
+
+    color: rgb(239, 133, 27);
+    font-size: 3rem;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 800;
+    margin-top: 45px;
+   
+
+
+}
+
+.bar1 {
+
+    height: 1vh;
+}
+
+.bar2 {
+
+    border-bottom: 2px solid silver;
+
+}
+
+.bar2 h3 {
+
+        font-size: 35px;   
+        font-family: 'Inter Tight', sans-serif;
+        font-weight: 500; 
+}
+
+.bar2 p {
+
+font-size: 25px;
+color:grey;
+
+
+}
+
+.bar3 h3 {
+
+    font-size: 35px;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 500;
+
+}
+
+.bar3 p {
+
+    font-size: 23px;
+    color: grey;
+    padding: 10px;
+}
+
+.base {
+
+    /* background-color: aqua; */
+    width: 98vw;
+    height: 30vh;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 20px;
+    align-items: center;
+
+}
+
+.bar4 {
+
+    width:28vw;
+    height: 28vh;
+    /* background-color: burlywood; */
+    display: flex;
+
+}
+
+.bars {
+/* background-color: yellow; */
+width: 30vw;
+display: flex;
+}
+.bars img {
+
+    margin-left: 20%;
+
+}
+
+.bars h1 {
+
+    font-size: 50px;
+    color: grey;
+
+}
+
+.bars h3 {
+
+    font-size: 26px;
+    font-family: 'Inter Tight', sans-serif;
+
+}
+
+.bars p {
+
+    font-size: 25px;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 500;
+    color: grey;
+
+}
+
+.bars div {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    width: 12vw;
+}
+ .bar4 div {
+
+    /* background-color: greenyellow; */
+    height: 12vw;
+    margin: 3px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+ }
+
+.bar4 h1 {
+
+    color: grey;
+    font-size: 50px;
+
+}
+
+.bar4 p {
+
+    font-size: 25px;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 500;
+    color: grey;
+}
+
+.bar4 h3 {
+
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 26px;
+}
